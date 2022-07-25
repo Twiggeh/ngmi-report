@@ -1,4 +1,4 @@
-import { APIClient } from '../src/APIClient.js';
+import { APIClient } from '../src/APIClient';
 import { WebSocketClient } from '../src/tcp/';
 
 window.wireExports = {
