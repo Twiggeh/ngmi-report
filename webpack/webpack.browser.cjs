@@ -17,9 +17,6 @@ module.exports = {
 		},
 	},
 	devtool: 'source-map',
-	experiments: {
-		outputModule: true,
-	},
 	entry: {
 		[projectName]: `${__dirname}/demo/demo.js`,
 	},
@@ -32,6 +29,14 @@ module.exports = {
 			{
 				exclude: /node_modules/,
 				loader: 'babel-loader',
+				options: {
+					plugins: [
+						'@babel/plugin-proposal-optional-chaining',
+						'@babel/plugin-proposal-class-properties',
+						'@babel/plugin-proposal-object-rest-spread',
+					],
+					presets: ['@babel/preset-react', '@babel/preset-typescript'],
+				},
 				test: /\.[tj]s$/,
 			},
 		],

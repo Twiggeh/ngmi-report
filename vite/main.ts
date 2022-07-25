@@ -1,5 +1,5 @@
-import { APIClient } from '../webpack/src/APIClient';
-import { WebSocketClient } from '../webpack/src/tcp';
+import { APIClient } from './src/APIClient';
+import { WebSocketClient } from './src/tcp';
 
 console.log(APIClient, WebSocketClient);
 

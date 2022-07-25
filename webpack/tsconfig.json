@@ -4,7 +4,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"lib": ["dom", "esnext"],
 		"jsx": "react",
-		"module": "commonjs",
+		"module": "esnext",
 		"moduleResolution": "node",
 		"noEmitOnError": false,
 		"noImplicitReturns": true,
