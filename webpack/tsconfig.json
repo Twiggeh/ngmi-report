@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["dom", "esnext"],
+		"jsx": "react",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noEmitOnError": false,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"removeComments": false,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2017",
+		"esModuleInterop": true,
+		"outDir": "src",
+		"rootDir": "src"
+	},
+	"exclude": ["karma.conf.ts", "node_modules", "demo.ts"]
+}
